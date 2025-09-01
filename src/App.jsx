@@ -1,11 +1,11 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import CurrencyConverter from './CurrencyConverter';
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/CurrencyConverter">
         <Routes>
           <Route path="/" element={<CurrencyConverter />} />
         </Routes>

@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Durgaprasad09102003.github.io/CurrencyConverter"
+  "homepage": "https://Durgaprasad09102003.github.io/CurrencyConverter",
   "name": "currencyconverter",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.12",
